@@ -1121,6 +1121,7 @@ def RPGsoccer():
                 actoat = "cabeza"
                 actodef = "cabeza"
                 
+                print("¡Saltan dos jugadores a cabecear la pelota!")
                 print("Jugador " + str(eqataque + 1) + ", lance los dados.")
                 input()
                 dadosat, comboat = Dados().lanzar()
@@ -1154,6 +1155,7 @@ def RPGsoccer():
                 actoat = "cabeza"
                 actodef = "reflejos"
                 
+                print("¡El remate de cabeza se dirige a portería!")
                 print("Jugador " + str(eqataque + 1) + ", lance los dados.")
                 input()
                 dadosat, comboat = Dados().lanzar()
