@@ -1024,10 +1024,10 @@ def RPGsoccer():
             dcombo = comboat - combodef
             
             if dcombo > 0 or dF > 0:
-                hecho == "gol"
+                hecho = "gol"
             else:
                 print("¡Impresionantes reflejos del portero, voló!")
-                hecho == "robo"
+                hecho = "robo"
             
             eqataque, eqdefensa, atacante,             defensor, marcador, balon = consec(hecho, eqataque, eqdefensa,                                            atacante, defensor, marcador,                                            balon, posataque, posdefensa)
         elif hecho == "chute 2":
