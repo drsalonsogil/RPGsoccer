@@ -1186,6 +1186,7 @@ def RPGsoccer():
         tiempo.lapso(actoat)
         t = tiempo.get()
     
+    print("¡Y el árbitro pita el final del partido!")
     marcador.final()
 
 
