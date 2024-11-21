@@ -473,7 +473,7 @@ class Marcador(object):
         """
         print("El resultado final es " + str(self.local) + " - "               + str(self.visitante))
         with open("Final-Results.txt", "a") as file:
-              file.write(str(dt.date.today()) + "  " + str(self.local)                          + " - " + str(self.visitante)                         + " en la quiniela es un "                          + str(self.quiniela))
+              file.write(str(dt.date.today()) + "  " + str(self.local)                          + " - " + str(self.visitante)                         + " en la quiniela es un "                          + str(self.quiniela) + "\n")
 
 # Ahora que tenemos todos los elementos del juego, empezamos.
 
@@ -1097,7 +1097,7 @@ def RPGsoccer():
                 F_at2 = equipoat[atacante-1].accion(actoat, dadosat)
                 F_def2 = equipodef[defensor-1].accion(actodef, dadosdef)
                 dF2 = F_at2 - F_def2
-                dcombo2 = comboat2 - combodef2
+                dcombo2 = comboat - combodef
                 
                 if dcombo2 > 0 or dF2 > 0:
                     hecho = "gol"
